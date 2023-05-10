@@ -52,3 +52,5 @@ memory.image = 'https://i2.rozetka.ua/goods/17090881/189441988_images_1709088161
 cpu.sale = function (p) {
     return this.amount - (this.amount / 100 * p);
 }
+console.log(cpu.sale(1));
+console.log(memory);
